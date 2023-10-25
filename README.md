@@ -6,6 +6,28 @@ This is a command-line interface (CLI) tool that allows you to interact with the
 
 Follow these steps to set up and use the `askaldy-cli`:
 
+### Installation
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   npm install -g askaldy-cli
+   ```
+2. Get new API key from OpenAI portal and set it as the environment variable. It will be saved locally. In 'Users/usernam/.aldy_config.json'
+   
+    ```bash
+    aldy --config API_KEY=NEW_API_KEY
+    ```
+3. You can start using **aldy** command in terminal now
+
+    ```bash
+    ~ aldy how to make easy pancakes
+    ```
+    ```bash
+    ~ aldy what does is the meaning of ingress in aws
+    ```
+
+
 ### Prerequisites
 
 Before you begin, ensure you have the following installed on your system:
@@ -38,7 +60,7 @@ Before you begin, ensure you have the following installed on your system:
 You need to add your API key from OpenAI using the following command:
 
 ```bash
-aa --config API_KEY=NEW_API_KEY
+aldy --config API_KEY=NEW_API_KEY
 ```
 
 Alternatively you can do it manually as follows:
@@ -58,13 +80,13 @@ Alternatively you can do it manually as follows:
 You can use the CLI by running the `aa` command followed by your query:
 
 ```bash
-aa "What is the capital of France?"
+aldy "What is the capital of France?"
 ```
 
 If you need to update your API key, use the following command:
 
 ```bash
-aa --config API_KEY=NEW_API_KEY
+aldy --config API_KEY=NEW_API_KEY
 ```
 
 ## Project Structure

@@ -5,7 +5,7 @@ const path = require('path');
 const OpenAI = require('openai');
 const { argv } = require('yargs');
 
-const configFilePath = path.join(process.env.HOME, '.aa_config.json');
+const configFilePath = path.join(process.env.HOME, '.aldy_config.json');
 
 let apiKey = '';
 
@@ -41,7 +41,7 @@ if (!question) {
 }
 
 if (!apiKey) {
-    console.error('Please set your API key using: aa --config API_KEY=YOUR_KEY');
+    console.error('Please set your API key using: aldy --config API_KEY=YOUR_KEY');
     process.exit(1);
 }
 
