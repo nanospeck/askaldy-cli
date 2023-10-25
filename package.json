@@ -1,7 +1,7 @@
 {
   "name": "askaldy-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "An AI search engine for cli designed to provide short, helpful answers to user queries. Eg. aldy how to make easy pancakes",
   "main": "index.js",
   "bin": {
     "aldy": "./index.js"
