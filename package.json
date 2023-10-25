@@ -1,0 +1,21 @@
+{
+  "name": "askaldy-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "aldy": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "fs": "^0.0.1-security",
+    "openai": "^4.13.0",
+    "yargs": "^17.7.2"
+  }
+}
