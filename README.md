@@ -20,9 +20,16 @@ Follow these steps to set up and use the `askaldy-cli`:
     ```
 3. You can start using `aldy` command in terminal now
 
+    #### Examples
+
     ```bash
-    ~ aldy how to make easy pancakes
+    ~ aldy how to create an array in javascript
     ```
+
+    ```bash
+    ~ aldy var vs let vs const in javascript
+    ```
+
     ```bash
     ~ aldy what does is the meaning of ingress in aws
     ```
